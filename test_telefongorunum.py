@@ -16,3 +16,4 @@ def test_mobile():
           context.tracing.stop(path="trace.zip")
 
     #tracewiever zip dosyası açmak için=  npx playwright show-trace trace.zip  terminale yaz
+    #deneme
