@@ -6,7 +6,7 @@ def testlog():
       browser = p.chromium.launch()
       page = browser.new_page()
       page.goto("https://demo.automationtesting.in/Index.html")
-      print("Başarıyla giriş yapıldı")
+      print("Başarıyla giriş sağlandı.")
 
 
 
