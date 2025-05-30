@@ -8,7 +8,7 @@ with sync_playwright() as p:
 
 
     #Dosya yükleme fonksiyonu
-    file_upload='./test.py'
+    file_upload='./deneme.py'
     upload_location = page.query_selector('#input-4')
     upload_location.set_input_files(file_upload)
     page.wait_for_timeout(1000)
